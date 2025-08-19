@@ -325,8 +325,41 @@ Per-Organ Dice Scores:
 - **Observations:**  
   - Served as control experiment  
 - **Results:**  
-  - Dice Score: `XX.XX%`  
-  - Validation Loss: `YY.YY`  
+```bash
+📊 Best Performing Case: FLARE22_Tr_0042_0000.nii
+Mean Dice: 0.7932
+Per-Organ Dice Scores:
+  - Spleen                : 0.9600
+  - Right Kidney          : 0.9522
+  - Left Kidney           : 0.9420
+  - Gallbladder           : 0.8284
+  - Liver                 : 0.9117
+  - Stomach               : 0.8698
+  - Aorta                 : 0.6901
+  - Inferior Vena Cava    : 0.0000
+  - Pancreas              : 0.7909
+  - Right Adrenal Gland   : 0.7210
+  - Left Adrenal Gland    : 0.8877
+  - Duodenum              : 0.7966
+  - Bladder               : 0.9609
+
+📊 Worst Performing Case: FLARE22_Tr_0045_0000.nii
+Mean Dice: 0.6212
+Per-Organ Dice Scores:
+  - Spleen                : 0.9516
+  - Right Kidney          : 0.5285
+  - Left Kidney           : 0.8945
+  - Gallbladder           : 0.5204
+  - Liver                 : 0.8366
+  - Stomach               : 0.8421
+  - Aorta                 : 0.3115
+  - Inferior Vena Cava    : 0.0000
+  - Pancreas              : 0.8179
+  - Right Adrenal Gland   : 0.7112
+  - Left Adrenal Gland    : 0.5901
+  - Duodenum              : 0.6918
+  - Bladder               : 0.3794
+```
 
 ---
 
