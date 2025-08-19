@@ -196,10 +196,41 @@ Per-Organ Dice Scores:
 - **Setup:** Adam + CosineAnnealingLR  
 - **Observations:**  
   - Without augmentation, model overfits quicker  
-- **Results:**  
-  - Dice Score: `XX.XX%`  
-  - Validation Loss: `YY.YY`  
+```bash
+📊 Best Performing Case: FLARE22_Tr_0050_0000.nii
+Mean Dice: 0.6984
+Per-Organ Dice Scores:
+  - Spleen                : 0.9635
+  - Right Kidney          : 0.9547
+  - Left Kidney           : 0.9533
+  - Gallbladder           : 0.7025
+  - Liver                 : 0.8810
+  - Stomach               : 0.7900
+  - Aorta                 : 0.4437
+  - Inferior Vena Cava    : 0.0000
+  - Pancreas              : 0.8387
+  - Right Adrenal Gland   : 0.0000
+  - Left Adrenal Gland    : 0.8146
+  - Duodenum              : 0.7765
+  - Bladder               : 0.9603
 
+📊 Worst Performing Case: FLARE22_Tr_0045_0000.nii
+Mean Dice: 0.5344
+Per-Organ Dice Scores:
+  - Spleen                : 0.9429
+  - Right Kidney          : 0.6526
+  - Left Kidney           : 0.8861
+  - Gallbladder           : 0.5928
+  - Liver                 : 0.7801
+  - Stomach               : 0.8119
+  - Aorta                 : 0.0000
+  - Inferior Vena Cava    : 0.0000
+  - Pancreas              : 0.7122
+  - Right Adrenal Gland   : 0.0000
+  - Left Adrenal Gland    : 0.6605
+  - Duodenum              : 0.6814
+  - Bladder               : 0.2263
+```
 ---
 
 ### 5️⃣ `monai-with-randaffine-augmentation.ipynb`  
