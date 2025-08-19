@@ -154,9 +154,41 @@ Per-Organ Dice Scores:
   - CosineAnnealingLR stabilized training curve  
   - Best balance between accuracy & stability  
 - **Results:**  
-  - Dice Score: `XX.XX%`  
-  - Validation Loss: `YY.YY`  
-  - ![Training Curve](results/scheduler-curve.png)  
+```bash
+📊 Best Performing Case: FLARE22_Tr_0042_0000.nii
+Mean Dice: 0.5649
+Per-Organ Dice Scores:
+  - Spleen                : 0.9646
+  - Right Kidney          : 0.4704
+  - Left Kidney           : 0.9554
+  - Gallbladder           : 0.8389
+  - Liver                 : 0.6054
+  - Stomach               : 0.8627
+  - Aorta                 : 0.0000
+  - Inferior Vena Cava    : 0.0000
+  - Pancreas              : 0.7726
+  - Right Adrenal Gland   : 0.0000
+  - Left Adrenal Gland    : 0.8578
+  - Duodenum              : 0.5301
+  - Bladder               : 0.4857
+
+📊 Worst Performing Case: FLARE22_Tr_0047_0000.nii
+Mean Dice: 0.4409
+Per-Organ Dice Scores:
+  - Spleen                : 0.9415
+  - Right Kidney          : 0.1004
+  - Left Kidney           : 0.9233
+  - Gallbladder           : 0.7017
+  - Liver                 : 0.4298
+  - Stomach               : 0.7375
+  - Aorta                 : 0.0000
+  - Inferior Vena Cava    : 0.0000
+  - Pancreas              : 0.7015
+  - Right Adrenal Gland   : 0.0000
+  - Left Adrenal Gland    : 0.7081
+  - Duodenum              : 0.4250
+  - Bladder               : 0.0631
+```
 
 ---
 
