@@ -238,9 +238,42 @@ Per-Organ Dice Scores:
 - **Observations:**  
   - RandAffine improved robustness, but lacked extra gain from LeakyReLU  
 - **Results:**  
-  - Dice Score: `XX.XX%`  
-  - Validation Loss: `YY.YY`  
+```bash
+📊 Best Performing Case: FLARE22_Tr_0042_0000.nii
+Mean Dice: 0.8248
+Per-Organ Dice Scores:
+  - Spleen                : 0.9614
+  - Right Kidney          : 0.9427
+  - Left Kidney           : 0.9515
+  - Gallbladder           : 0.8440
+  - Liver                 : 0.9347
+  - Stomach               : 0.8560
+  - Aorta                 : 0.7139
+  - Inferior Vena Cava    : 0.4492
+  - Pancreas              : 0.7826
+  - Right Adrenal Gland   : 0.6923
+  - Left Adrenal Gland    : 0.8678
+  - Duodenum              : 0.7720
+  - Bladder               : 0.9542
 
+📊 Worst Performing Case: FLARE22_Tr_0047_0000.nii
+Mean Dice: 0.6234
+Per-Organ Dice Scores:
+  - Spleen                : 0.9195
+  - Right Kidney          : 0.9042
+  - Left Kidney           : 0.8435
+  - Gallbladder           : 0.6651
+  - Liver                 : 0.8867
+  - Stomach               : 0.6377
+  - Aorta                 : 0.2385
+  - Inferior Vena Cava    : 0.0392
+  - Pancreas              : 0.5063
+  - Right Adrenal Gland   : 0.2846
+  - Left Adrenal Gland    : 0.7034
+  - Duodenum              : 0.5925
+  - Bladder               : 0.8828
+
+```
 ---
 
 ### 6️⃣ `monai-leakyrelu.ipynb`  
