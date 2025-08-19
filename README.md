@@ -68,9 +68,24 @@ Below are experiment-wise results (replace placeholders with actual metrics/plot
   - Faster convergence than ReLU baseline  
   - Augmentation improved robustness to rotation/translation  
 - **Results:**  
-  - Dice Score: `XX.XX%`  
-  - Validation Loss: `YY.YY`  
-  - ![Sample Prediction](results/randaffine-leakyrelu.png)  
+```bash
+📊 Best Performing Case: FLARE22_Tr_0042_0000.nii
+Mean Dice: 0.7503
+Per-Organ Dice Scores:
+  - Spleen                : 0.9640
+  - Right Kidney          : 0.9476
+  - Left Kidney           : 0.9428
+  - Gallbladder           : 0.8570
+  - Liver                 : 0.5961
+  - Stomach               : 0.5828
+  - Aorta                 : 0.6815
+  - Inferior Vena Cava    : 0.2948
+  - Pancreas              : 0.8136
+  - Right Adrenal Gland   : 0.7485
+  - Left Adrenal Gland    : 0.8869
+  - Duodenum              : 0.7993
+  - Bladder               : 0.6385
+``` 
 
 ---
 
