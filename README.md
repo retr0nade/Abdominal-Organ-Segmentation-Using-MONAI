@@ -85,6 +85,23 @@ Per-Organ Dice Scores:
   - Left Adrenal Gland    : 0.8869
   - Duodenum              : 0.7993
   - Bladder               : 0.6385
+
+📊 Worst Performing Case: FLARE22_Tr_0041_0000.nii
+Mean Dice: 0.5940
+Per-Organ Dice Scores:
+  - Spleen                : 0.9250
+  - Right Kidney          : 0.9317
+  - Left Kidney           : 0.9021
+  - Gallbladder           : 0.5404
+  - Liver                 : 0.5761
+  - Stomach               : 0.5487
+  - Aorta                 : 0.6328
+  - Inferior Vena Cava    : 0.0977
+  - Pancreas              : 0.3080
+  - Right Adrenal Gland   : 0.6533
+  - Left Adrenal Gland    : 0.7593
+  - Duodenum              : 0.2197
+  - Bladder               : 0.6277
 ``` 
 
 ---
