@@ -282,8 +282,41 @@ Per-Organ Dice Scores:
   - Better gradient flow than ReLU  
   - LRScheduler prevented overfitting  
 - **Results:**  
-  - Dice Score: `XX.XX%`  
-  - Validation Loss: `YY.YY`  
+```bash
+📊 Best Performing Case: FLARE22_Tr_0050_0000.nii
+Mean Dice: 0.8028
+Per-Organ Dice Scores:
+  - Spleen                : 0.9651
+  - Right Kidney          : 0.9650
+  - Left Kidney           : 0.9575
+  - Gallbladder           : 0.7854
+  - Liver                 : 0.9090
+  - Stomach               : 0.8416
+  - Aorta                 : 0.7446
+  - Inferior Vena Cava    : 0.0000
+  - Pancreas              : 0.8861
+  - Right Adrenal Gland   : 0.7394
+  - Left Adrenal Gland    : 0.8413
+  - Duodenum              : 0.8361
+  - Bladder               : 0.9649
+
+📊 Worst Performing Case: FLARE22_Tr_0045_0000.nii
+Mean Dice: 0.6237
+Per-Organ Dice Scores:
+  - Spleen                : 0.9473
+  - Right Kidney          : 0.6584
+  - Left Kidney           : 0.9245
+  - Gallbladder           : 0.6089
+  - Liver                 : 0.8063
+  - Stomach               : 0.6634
+  - Aorta                 : 0.0000
+  - Inferior Vena Cava    : 0.0000
+  - Pancreas              : 0.8436
+  - Right Adrenal Gland   : 0.7046
+  - Left Adrenal Gland    : 0.8278
+  - Duodenum              : 0.7432
+  - Bladder               : 0.3798
+```
 
 ---
 
