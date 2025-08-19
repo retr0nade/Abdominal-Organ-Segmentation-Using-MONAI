@@ -111,10 +111,41 @@ Per-Organ Dice Scores:
 - **Observations:**  
   - AdamW provided better generalization, slightly lower validation loss  
 - **Results:**  
-  - Dice Score: `XX.XX%`  
-  - Validation Loss: `YY.YY`  
-  - ![Sample Prediction](results/randaffine-adamw.png)  
+```bash
+📊 Best Performing Case: FLARE22_Tr_0042_0000.nii
+Mean Dice: 0.8540
+Per-Organ Dice Scores:
+  - Spleen                : 0.9595
+  - Right Kidney          : 0.9563
+  - Left Kidney           : 0.9326
+  - Gallbladder           : 0.8207
+  - Liver                 : 0.8951
+  - Stomach               : 0.8478
+  - Aorta                 : 0.7452
+  - Inferior Vena Cava    : 0.7491
+  - Pancreas              : 0.8366
+  - Right Adrenal Gland   : 0.7199
+  - Left Adrenal Gland    : 0.8886
+  - Duodenum              : 0.7960
+  - Bladder               : 0.9540
 
+📊 Worst Performing Case: FLARE22_Tr_0045_0000.nii
+Mean Dice: 0.6208
+Per-Organ Dice Scores:
+  - Spleen                : 0.9460
+  - Right Kidney          : 0.2889
+  - Left Kidney           : 0.8824
+  - Gallbladder           : 0.6008
+  - Liver                 : 0.7920
+  - Stomach               : 0.7271
+  - Aorta                 : 0.3801
+  - Inferior Vena Cava    : 0.2933
+  - Pancreas              : 0.8185
+  - Right Adrenal Gland   : 0.7131
+  - Left Adrenal Gland    : 0.7963
+  - Duodenum              : 0.7618
+  - Bladder               : 0.0700
+```
 ---
 
 ### 3️⃣ `monai-with-randaffine-leakyrelu-lr-scheduler.ipynb`  
